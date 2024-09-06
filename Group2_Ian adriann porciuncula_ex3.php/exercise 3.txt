@@ -1,6 +1,6 @@
 <?php
 
-$filename = 'allen.txt';
+$filename = 'ian.txt';
 
 if (file_exists($filename)) {
    
@@ -9,7 +9,7 @@ if (file_exists($filename)) {
 } else {
     echo "There is no file. Making the file...\n";
    
-    $initialContent = "Hello i'm Allen \nthis is Group 2\nThis is a sample file.";
+    $initialContent = "Hello i'm ian adriann porciuncula \nthis is Group 2\nThis is a sample file.";
     file_put_contents($filename, $initialContent);
     echo "First material was written and the file was produced..\n";
 }
